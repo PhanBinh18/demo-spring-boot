@@ -21,4 +21,6 @@ public class DemoApplication {
 	public List<String> hello1(){
 		return List.of("Hello", "World");
 	}
+	@GetMapping("/l")
+	public String message(){ return "Welcome to my page"; };
 }
